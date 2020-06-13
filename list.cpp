@@ -21,4 +21,17 @@ int main()
 	{
 		cout << i << ", ";
 	}
+	
+	//Common Functions in LIST, STACK, QUEUE
+	cout << ls.size() << endl;
+	cout << ls.empty() << endl; 
+	
+	list<int> ls2;
+	ls2.swap(ls);
+	
+	for (auto i : ls2)
+	{
+		cout << i << ", ";
+	}
+	
 }
